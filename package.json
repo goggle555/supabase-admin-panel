@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "email-dev": "email dev --dir supabase/emails/src",
+    "email-export": "email export --dir supabase/emails/src --outDir supabase/emails/html",
     "prepare": "husky"
   },
   "dependencies": {
