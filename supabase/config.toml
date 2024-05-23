@@ -102,10 +102,9 @@ enable_confirmations = false
 # Controls the minimum amount of time that must pass before sending another signup confirmation or password reset email.
 max_frequency = "1s"
 
-# Uncomment to customize email template
-# [auth.email.template.invite]
-# subject = "You have been invited"
-# content_path = "./supabase/templates/invite.html"
+[auth.email.template.invite]
+subject = "You have been invited"
+content_path = "./supabase/emails/html/invite.html"
 
 [auth.sms]
 # Allow/disallow new user signups via SMS to your project.
